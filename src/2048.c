@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
-#include <conio.h>
 #include <time.h>
 int table[8][8];
 int newtable[8][8];
@@ -309,7 +308,7 @@ int main()
         system("cls");
         tablePrint();
         B:
-        c=getch();
+        c=getchar();
         switch (c){
             case 72:
             case 'i':
